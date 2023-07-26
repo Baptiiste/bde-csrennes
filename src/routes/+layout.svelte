@@ -3,13 +3,16 @@ import Button_link from "$lib/components/atoms/button/Button_link.svelte";
 import {goto} from "$app/navigation";
 import Button_menu from "$lib/components/atoms/button/Button_menu.svelte";
 
-export let data
+//export let data
 let gotoHome =() => {
     goto("/")
 }
 
 let menuShow = false
 
+let data = {
+    layout:true
+}
 </script>
 
 <div class="view">
@@ -37,11 +40,11 @@ let menuShow = false
         {/if}
     {/if}
 
-    {#if data}
+
         <div class="content" on:click={() => {menuShow = false}}>
             <slot></slot>
         </div>
-    {/if}
+
 
 
 </div>

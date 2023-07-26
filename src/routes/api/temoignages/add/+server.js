@@ -6,6 +6,7 @@ export async function POST ({request}){
         const data = await request.json()
         if(!data.beContacted){
             data.nom = "Anonyme"
+
         }
 
         let dataList = [uuidv4(),data.nom, data.title, data.descMission, data.lieu, data.company, data.ambiance, data.salaire, data.wanted, data.beContacted, data.mail, data.tel, data.logementEnt, data.mobilite, data.web, data.whereFinded, data.conseil, data.categorie]
