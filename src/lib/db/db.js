@@ -1,6 +1,6 @@
 import mariadb from 'mariadb'
 export const data = {
-    host : "localhost",
+    host : "bde-csrennes.rezo-rm.fr",
     user : "root",
     db : "bdecsrennes",
     password:"root"
