@@ -1,6 +1,6 @@
 <script>
     import ZoneTem from "$lib/components/molecules/ZoneTem.svelte";
- /* 477 1355 1496 1222 ">=14.18.0" 1223 >+8  1270 14 1471 14*/
+ /* 477 1355 1496 1222 ">=14.18.0" 1223 >+8  1270 14 1471 14 1502 14 1012 14 1364 16*/
     export let data
     data = data.data[0]
 

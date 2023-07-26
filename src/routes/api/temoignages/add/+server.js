@@ -1,7 +1,7 @@
 import { v4 as uuidv4 } from 'uuid';
 import {db} from "$lib/db/db.js";
 export async function POST ({request}){
-    let addOk = true
+    let addOk = false
     if(addOk){
         const data = await request.json()
         if(!data.beContacted){
