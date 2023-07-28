@@ -87,6 +87,9 @@
             text-align: left;
             margin: auto;
             font-family: "Hysteria Roller";
+            @media(max-width: 600px){
+              font-size: 22px;
+            }
           }
           .company{
             width: 40%;
@@ -94,6 +97,9 @@
             margin: auto;
             font-size: 25px;
             font-family: Gadugi;
+            @media(max-width: 600px){
+              font-size: 19px;
+            }
           }
         }
         .contact{
@@ -108,6 +114,9 @@
             font-size: 25px;
             margin-top: auto;
             margin-bottom: auto ;
+            @media(max-width: 600px){
+              font-size: 19px;
+            }
           }
           .dataContact{
             text-align: right;
