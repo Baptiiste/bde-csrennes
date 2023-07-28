@@ -52,12 +52,21 @@
           .title{
             font-size: 25px;
             font-weight: bold;
+            @media(max-width: 600px){
+              font-size: 22px;
+            }
           }
           .company{
             font-size: 22px;
+            @media(max-width: 600px){
+              font-size: 19px;
+            }
           }
           .lieu{
             font-size: 17px;
+            @media(max-width: 600px){
+              font-size: 15px;
+            }
           }
         }
         .button{

@@ -14,7 +14,10 @@ let data = {
     layout:true
 }
 </script>
-
+<head>
+    <title>BDE CS Rennes</title>
+</head>
+<body>
 <div class="view">
     {#if data.layout}
         <div class="header">
@@ -41,13 +44,15 @@ let data = {
     {/if}
 
 
-        <div class="content" on:click={() => {menuShow = false}}>
-            <slot></slot>
-        </div>
+    <div class="content" on:click={() => {menuShow = false}}>
+        <slot></slot>
+    </div>
 
 
 
 </div>
+</body>
+
 
 
 <style lang="scss">
@@ -84,7 +89,7 @@ let data = {
           margin-bottom: auto;
           cursor: pointer;
         }
-        @media(max-width: 1100px){
+        @media(max-width: 1300px){
           justify-content: space-between;
           width: 100%;
           .menu{
@@ -97,7 +102,7 @@ let data = {
             padding-right: 20px;
           }
         }
-        @media(min-width: 1101px){
+        @media(min-width: 1301px){
           .menu{
             padding-left: 30px;
             display: flex;

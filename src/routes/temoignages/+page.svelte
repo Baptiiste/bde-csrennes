@@ -84,7 +84,7 @@ let updateSearch = () => {
         display: flex;
         flex-direction: column;
         gap: 15px;
-        width: max(70%, 450px);
+        width: max(70%, 380px);
         margin:auto;
         .head{
           .nom{

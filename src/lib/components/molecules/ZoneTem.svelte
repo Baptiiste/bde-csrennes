@@ -63,6 +63,9 @@
           top:-15px;
           font-size: 20px;
           font-family: "Hysteria Roller";
+          @media(max-width: 1000px){
+            font-size: 17px;
+          }
         }
         .text{
           margin-top: auto;
@@ -70,6 +73,9 @@
           padding: 15px 15px;
           font-family: "Gadugi";
           text-align: justify;
+          @media(max-width: 1000px){
+            font-size: 13px;
+          }
         }
       .bottom-right{
         position:absolute;
