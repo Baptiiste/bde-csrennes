@@ -64,7 +64,7 @@
           font-size: 20px;
           font-family: "Hysteria Roller";
           @media(max-width: 1000px){
-            font-size: 17px;
+            font-size: 14px;
           }
         }
         .text{
@@ -74,7 +74,7 @@
           font-family: "Gadugi";
           text-align: justify;
           @media(max-width: 1000px){
-            font-size: 13px;
+            font-size: 11px;
           }
         }
       .bottom-right{

@@ -72,6 +72,7 @@
 
         padding-top: 20px;
         padding-bottom: 20px;
+
         width: min(90%, 1000px);
         margin:auto;
         .poste{
@@ -119,6 +120,9 @@
         .infos{
           background-color: var(--fond-bde);
           padding: 25px;
+          @media(max-width: 600px){
+            padding: 12px;
+          }
           border-radius: 15px;
           display: flex;
           flex-direction: column;
