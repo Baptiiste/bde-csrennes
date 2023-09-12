@@ -33,12 +33,14 @@ let data = {
             <div class="menu">
                 <Button_link href="/temoignages">Témoignage d'alternants</Button_link>
                 <Button_link href="/PlaquetteAlternantsRennes1A_2023.pdf">Plaquette 1A Rennes</Button_link>
+                <Button_link href="/reglement_wep_2023.pdf">Règlement WEP 2023</Button_link>
             </div>
         </div>
         {#if menuShow}
             <div class="menuPopUp" on:click={() => {menuShow = false}}>
                 <Button_link href="/temoignages">Témoignage d'alternants</Button_link>
                 <Button_link href="/PlaquetteAlternantsRennes1A_2023.pdf">Plaquette 1A Rennes</Button_link>
+                <Button_link href="/reglement_wep_2023.pdf">Règlement WEP 2023</Button_link>
             </div>
         {/if}
     {/if}
