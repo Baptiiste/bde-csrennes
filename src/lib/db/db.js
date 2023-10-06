@@ -6,5 +6,5 @@ export const data = {
     password:"root"
 }
 
-export const pool = mariadb.createPool({host: data.host, user: data.user, database : data.db, password:data.password, connectionLimit: 5});
+export const pool = mariadb.createPool({host: data.host, user: data.user, database : data.db, password:data.password, connectionLimit: 5000});
 export const db = await pool.getConnection();
